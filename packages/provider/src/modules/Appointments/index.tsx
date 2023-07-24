@@ -32,10 +32,7 @@ export default function Appointments(props: AppointmentsProps) {
       usersLoading,
       appointmentLoading,
     },
-    handlers: {
-      handleSelect,
-      handleChangeSearch,
-    },
+    handlers: { onRemoveClick, handleSelect, handleChangeSearch },
   } = useComponent(props)
   const { t } = useTranslation()
 
